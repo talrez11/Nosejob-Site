@@ -1,0 +1,390 @@
+/**
+ *  Style Sheet
+ *  Nosejob
+ *
+ * Copyright (c) 2014. by way2cu / http://way2cu.com
+ * Author: Tal Reznic
+ */
+
+ div.inner_wrap {
+ 	display: block;
+ 	width: 1200px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	position: relative;
+ }
+
+ /*HEADER SECTION*/
+
+header {
+	background-image: url(../images/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 600px;
+	height: 600px;
+	color:white;
+}
+
+header div.inner_wrap a {
+	display: inline-block;
+	position: absolute;
+	top:10px;
+	left: 0px;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	padding-left: 40px;
+	text-decoration: none;
+	font-size: 1.8em;
+	font-weight: bold;
+	color:white;
+}
+
+header div.inner_wrap div {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 75px;
+}
+
+header div.inner_wrap div:nth-of-type(1) {
+	width: 550px;
+
+}
+
+header div.inner_wrap div:nth-of-type(1) span {
+	display: block;
+	font-size: 8.1em;
+	padding-top: 75px;
+}
+
+header div.inner_wrap div:nth-of-type(2) {
+	margin-right: 45px;
+}
+
+header div.inner_wrap div:nth-of-type(2) span {
+	display: block;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 2.9em;
+	font-weight: 300;
+}
+
+/*ARTICLE SECTION*/
+
+div.content {
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+
+div.content div.inner_wrap {
+	padding-bottom: 40px;
+}
+
+div.content div.inner_wrap div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.content div.inner_wrap div.content_wrap  {
+	width: 800px;
+
+}
+
+div.content div.inner_wrap div.content_wrap article {
+	background-image: url(../images/photo-frame.svg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto 320px;
+}
+
+div.content div.inner_wrap div.content_wrap article h1 {
+	display: block;
+	margin-top: 40px;
+	font-size: 2.9em;
+	font-weight: 400;
+}
+
+div.content div.inner_wrap div.content_wrap article p {
+	display: block;
+	margin: 0px;
+	padding-right: 340px;
+	font-size: 1.7em;
+}
+
+/*ARTICLE SECTION FORM*/
+   div.form_wrap {
+	width: 350px;
+	background-color: #699aa9;
+	margin-top: 40px;
+	margin-right: 35px;
+}
+
+ div.form_wrap span {
+	display: block;
+	text-align: center;
+	color:white; 
+}
+
+ div.form_wrap > span:nth-of-type(1) {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 1.4em;
+}
+
+ div.form_wrap > span:nth-of-type(2) {
+	width: 200px;
+	background-color:#2dcb70; 
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+	border: 1px solid #202850;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0.5px 0.2px rgba(0, 0, 0, 0.7);
+	color: #e8f9fd;
+	cursor: pointer;
+}
+
+ div.form_wrap > span:nth-of-type(3) {
+	padding-top: 20px;
+	font-size: 1.4em;
+}
+
+ div.form_wrap form {
+	display: block;
+	text-align: center;
+}
+
+ div.form_wrap form label span {
+	padding-top: 20px;
+}
+
+ div.form_wrap form label input {
+	padding: 10px;
+	font-size: 1.3em;
+	border-radius: 5px;
+	border: 2px solid #699aa9;
+	transition:all 0.3s;	
+}
+
+ div.form_wrap form label input:focus {
+	border: 2px solid #8d43ac;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color:#202850;
+}
+::-moz-input-placeholder { /* WebKit browsers */
+	color:#202850;
+}
+::-o-input-placeholder { /* WebKit browsers */
+	color:#202850;
+}
+
+ div.form_wrap form div.controls {
+	display: block;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+ div.form_wrap form div.controls button {
+	background-color: #f7931e;
+	color: #e8f9fd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	border-radius: 5px;
+	font-size: 1.3em;
+	box-shadow: 0px 1px 0.5px 0.2px rgba(105, 154, 169, 0.7);
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+/*GALLERY SECTION*/
+div.gallery {
+	background-color:#ebf5f5;
+	position: relative; 
+	box-shadow: 0px 3px 58px 1px rgba(0, 0, 0, 0.7);
+}
+
+div.gallery div.inner_wrap {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+div.gallery div.inner_wrap div.images {
+	display: block;	
+}
+
+div.gallery div.inner_wrap div.images > span {
+	display: block;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 300;
+}
+
+div.gallery div.inner_wrap div.images a {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div.gallery div.inner_wrap div.images a:nth-of-type(2) {
+	margin-right: 75px;
+}
+div.gallery div.inner_wrap div.images a:nth-of-type(3) {
+	margin-right: 75px;
+}
+div.gallery div.inner_wrap div.images a:nth-of-type(4) {
+	margin-right: 75px;
+}
+
+div.gallery div.inner_wrap div.images a img {
+	display: block;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+/*FOOTER SECTION*/
+footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 665px;	
+}
+
+footer div.inner_wrap {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+footer div.inner_wrap div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer div.inner_wrap div.content_wrap {
+	width: 800px;
+	background-image: url(../images/girl.png),url(../images/man.png);
+	background-repeat: no-repeat,no-repeat;
+	background-position: left top,left bottom;
+	background-size:auto 205px,auto 205px;
+	position: relative; 
+}
+
+footer div.inner_wrap div.content_wrap:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 205px;
+	height: 205px;
+	border: 1px solid white;
+}
+footer div.inner_wrap div.content_wrap:after {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 205px;
+	height: 205px;
+	border: 1px solid white;
+}  
+
+footer div.inner_wrap div.content_wrap span {
+	display: block;
+} 
+
+footer div.inner_wrap div.content_wrap span:nth-of-type(1) {
+	width: 500px;
+	padding-top:  50px;
+	font-size: 2.9em;
+	font-weight: 300;
+	color: white;
+}
+
+footer div.inner_wrap div.content_wrap span:nth-of-type(2) {
+	width: 500px;
+	padding-top: 20px;
+	font-size: 1.9em;
+	font-weight: 400;
+	color: white;
+}
+
+footer div.inner_wrap div.content_wrap span:nth-of-type(3) {
+	width: 500px;
+	padding-top: 35px;
+	font-size: 2.4em;
+	font-weight: bold;
+	color: white;
+}
+/*FOOTER FORM*/
+footer div.inner_wrap  div.form_wrap {
+	background: rgba(33, 41, 81, 0.4);
+	margin-top: -40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer div.copyright {
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer div.copyright div.logo {
+	display: block;
+	width: 330px;
+	background-image: url(../images/way2cu-logo.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 50px; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+footer div.copyright div.logo span {
+	direction: ltr;
+	display: block;
+	color:white;
+	padding-left: 50px;
+}
+footer div.copyright div.logo span a {
+	padding-left: 5px;
+} 
+
+footer div.copyright div.logo span:nth-of-type(1) a {
+	color:#5bc2d8; 
+}
+
+footer div.copyright div.logo span:nth-of-type(2) a {
+	color:#fbc926; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+ 
