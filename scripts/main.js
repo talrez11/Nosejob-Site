@@ -7,6 +7,7 @@
  */
 
 function on_site_load() {
+	Caracal.lightbox = new LightBox('a.image.direct', false, false, true);
 }
 
 $(on_site_load);
