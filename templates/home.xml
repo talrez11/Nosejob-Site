@@ -25,18 +25,17 @@
 						<span><cms:text constant="header_title"/></span>
 					</div>
 					<div>
-						<!-- <span><cms:text constant="you_tube_header"/></span> -->
-						<cms:module
-									name="youtube"
-									action="show"
-									text_id="header_video"
-									embed="1"
-									width="600"
-									height="400"
-									target="video_player"
-									theme="dark"
-									autohide="1"
-									/>
+							<cms:module
+										name="youtube"
+										action="show"
+										text_id="header_video"
+										embed="1"
+										width="600"
+										height="400"
+										target="video_player"
+										theme="dark"
+										autohide="1"
+										/>
 
 					</div>
 				</div>
