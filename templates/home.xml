@@ -8,7 +8,7 @@
 			<cms:collection include="page_control,animation_chain"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
-			
+
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<!-- HEADER SECTION -->
 			<header>
@@ -20,12 +20,12 @@
 						>
 						<cms:text constant="phone"/>
 					</a>
-					
+
 					<div>
 						<span><cms:text constant="header_title"/></span>
 					</div>
 					<div>
-						<span><cms:text constant="you_tube_header"/></span>		
+						<!-- <span><cms:text constant="you_tube_header"/></span> -->
 						<cms:module
 									name="youtube"
 									action="show"
@@ -37,7 +37,7 @@
 									theme="dark"
 									autohide="1"
 									/>
-						
+
 					</div>
 				</div>
 			</header>
@@ -47,10 +47,16 @@
 								<div class="inner_wrap">
 									<!-- ARTICLE -->
 									<div class="content_wrap">
+										<h2>
+											<span><cms:text constant="article_header_bold"/></span>
+
+											<cms:text constant="article_header"/>
+										</h2>
 										<cms:module
 											name="articles"
 											action="show"
 											text_id="about_article"
+											template="parts/article_noheading.xml"
 										/>
 									</div>
 									<!-- FORM -->
@@ -64,9 +70,9 @@
 										<cms:text constant="phone"/>
 										</a>
 										<span><cms:text constant="leave_details"/></span>
-										<cms:module 
-							 				name="contact_form" 
-							 				action="show" 
+										<cms:module
+							 				name="contact_form"
+							 				action="show"
 							 				text_id="contact_form"
 							 				/>
 									</div>
@@ -80,7 +86,8 @@
 										<cms:module
 													name="gallery"
 													action="show_image_list"
-													random="0"
+													random="1"
+													group="examples"
 													template="parts/image.xml"
 												/>
 									</div>
@@ -105,9 +112,9 @@
 						<cms:text constant="phone"/>
 						</a>
 						<span><cms:text constant="leave_details"/></span>
-						<cms:module 
-			 				name="contact_form" 
-			 				action="show" 
+						<cms:module
+			 				name="contact_form"
+			 				action="show"
 			 				text_id="contact_form"
 			 				/>
 					</div>
@@ -115,7 +122,7 @@
 				<div class="copyright">
 					<div class="logo">
 						<span><cms:text constant="designed"/>
-						<a href="http://way2cu.com"><cms:text constant="way2cu"/></a>	
+						<a href="http://way2cu.com"><cms:text constant="way2cu"/></a>
 						</span>
 						<span><cms:text constant="promoted"/>
 						<a href="http://www.oxerve.com"><cms:text constant="oxerve"/></a>
