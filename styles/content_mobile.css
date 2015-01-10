@@ -94,20 +94,23 @@ div.content div.inner_wrap div.content_wrap  {
 div.content div.inner_wrap div.content_wrap article {
 	background-image: url(../images/dr-ilan-640px.jpg);
 	background-repeat: no-repeat;
-	background-position: center 70px;
+	background-position: center 0px;
 	background-size: 90% auto;
 }
 
-div.content div.inner_wrap div.content_wrap article h1 {
+div.content div.inner_wrap div.content_wrap h2 {
 	display: block;
-	margin: 0px;
-	padding-right: 15px;
-	padding-left: 15px;
 	text-align: center;
-	font-size: 1.4em;
+	margin-top: 15px;
+	font-size: 1.9em;
 	font-weight: 400;
 }
 
+div.content div.inner_wrap div.content_wrap h2 span {
+	display: inline;
+	padding-left: 5px;
+	font-weight: bold;
+}
 div.content div.inner_wrap div.content_wrap article p {
 	display: block;
 	margin: 0px;
@@ -130,7 +133,7 @@ div.content div.inner_wrap div.content_wrap article p {
 div.form_wrap span {
 	display: block;
 	text-align: center;
-	color:white; 
+	color:white;
 }
 
 div.form_wrap > span:nth-of-type(1) {
@@ -186,7 +189,7 @@ div.form_wrap > span:nth-of-type(2) {
 	font-size: 1.3em;
 	border-radius: 5px;
 	border: 2px solid #699aa9;
-	transition:all 0.3s;	
+	transition:all 0.3s;
 }
 
  div.form_wrap form label input:focus {
@@ -233,7 +236,7 @@ div.form_wrap > span:nth-of-type(2) {
 
 div.gallery {
 	background-color:#ebf5f5;
-	position: relative; 
+	position: relative;
 }
 
 div.gallery div.inner_wrap {
@@ -242,7 +245,7 @@ div.gallery div.inner_wrap {
 }
 
 div.gallery div.inner_wrap div.images {
-	display: block;	
+	display: block;
 }
 
 div.gallery div.inner_wrap div.images > span {
@@ -279,12 +282,12 @@ footer {
 	background-image: url(../images/background-long.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 115% auto;	
+	background-size: 115% auto;
 }
 
 footer div.inner_wrap {
 	padding-top: 15px;
-	
+
 }
 
 footer div.inner_wrap div {
@@ -319,13 +322,13 @@ footer div.inner_wrap div.content_wrap:after {
 	width: 90%;
 	height: 270px;
 	border: 1px solid white;
-} 
+}
 
 footer div.inner_wrap div.content_wrap span {
 	display: block;
 	padding-left: 15px;
 	padding-right: 15px;
-} 
+}
 
 footer div.inner_wrap div.content_wrap span:nth-of-type(1) {
 	text-align: center;
@@ -336,7 +339,7 @@ footer div.inner_wrap div.content_wrap span:nth-of-type(1) {
 
 footer div.inner_wrap div.content_wrap span:nth-of-type(2) {
 	text-align: center;
-	padding-top: 15px;	
+	padding-top: 15px;
 	font-size: 1.1em;
 	font-weight: 400;
 	color: white;
@@ -352,7 +355,7 @@ footer div.inner_wrap div.content_wrap span:nth-of-type(3) {
 
 footer div.inner_wrap  div.form_wrap {
 	background: rgba(33, 41, 81, 0.4);
-	
+
 }
 
 footer div.copyright {
@@ -367,7 +370,7 @@ footer div.copyright div.logo {
 	background-image: url(../images/way2cu-logo.svg);
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: auto 50px; 
+	background-size: auto 50px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -382,13 +385,13 @@ footer div.copyright div.logo span {
 }
 footer div.copyright div.logo span a {
 	padding-left: 5px;
-} 
+}
 
 footer div.copyright div.logo span:nth-of-type(1) a {
-	color:#5bc2d8; 
+	color:#5bc2d8;
 }
 
 footer div.copyright div.logo span:nth-of-type(2) a {
-	color:#fbc926; 
-} 
+	color:#fbc926;
+}
 
