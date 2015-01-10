@@ -39,6 +39,7 @@ header div.inner_wrap a {
 	font-size: 1.8em;
 	font-weight: bold;
 	color:white;
+	cursor: pointer;
 }
 
 header div.inner_wrap div {
@@ -62,16 +63,10 @@ header div.inner_wrap div:nth-of-type(2) {
 	display: inline-block;
 	width: 600px;
 	margin-right: 45px;
-
 }
 
-header div.inner_wrap div:nth-of-type(2) span {
-	display: block;
-	padding-bottom: 10px;
-	text-align: center;
-	font-size: 2.9em;
-	font-weight: 300;
-}
+
+
 
 
 /*ARTICLE SECTION*/
