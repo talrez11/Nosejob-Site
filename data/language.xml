@@ -6,6 +6,8 @@
 	<constant name="header_title">וַאוווּ... איזה יופי!!!</constant>
 	<constant name="you_tube_header">ד"ר אילן הוכמן</constant>
 	<constant name="header">דר' אילן הוכמן רופא מומחה אף אוזן גרוןוניתוחים פלסטיים באף</constant>
+	<constant name="article_header_bold">דר' אילן הוכמן </constant>
+	<constant name="article_header">רופא מומחה אף אוזן גרון וניתוחים פלסטיים באף</constant>
 	<constant name="phone">09-7654321</constant>
 	<constant name="call_now">התקשרו עכשיו</constant>
 	<constant name="leave_details">או השאירו פרטים</constant>
