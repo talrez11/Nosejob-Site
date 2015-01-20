@@ -94,7 +94,7 @@ div.content div.inner_wrap div.content_wrap  {
 	width: 800px;
 }
 
-div.content div.inner_wrap div.content_wrap article {
+div.content div.inner_wrap div.content_wrap div.article {
 	background-image: url(../images/dr-ilan.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
@@ -116,7 +116,7 @@ div.content div.inner_wrap div.content_wrap h2 span {
 }
 
 
-div.content div.inner_wrap div.content_wrap article p {
+div.content div.inner_wrap div.content_wrap div.article p {
 	display: block;
 	margin: 0px;
 	padding-right: 340px;
@@ -442,7 +442,7 @@ div.content div.inner_wrap div.content_wrap h2 {
 	padding-right: 20px;
 }
 
-div.content div.inner_wrap div.content_wrap article {
+div.content div.inner_wrap div.content_wrap div.article {
 	background-position: 480px bottom;
 
 }
