@@ -145,7 +145,7 @@ div.content div.inner_wrap div.content_wrap div.article p {
 
  div.form_wrap > a {
  	display: block;
-	width: 150px;
+	width: 165px;
 	background-color:#2dcb70;
 	background-image:url(../images/icon-phone-white.svg);
 	background-repeat: no-repeat;
@@ -373,13 +373,15 @@ footer div.copyright {
 
 footer div.copyright div.logo {
 	display: block;
-	width: 330px;
+	width: 500px;
 	background-image: url(../images/way2cu-logo.svg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: auto 50px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: left;
 }
 
@@ -393,11 +395,11 @@ footer div.copyright div.logo span a {
 	padding-left: 5px;
 }
 
-footer div.copyright div.logo span:nth-of-type(1) a {
+footer div.copyright div.logo span a:nth-of-type(1) {
 	color:#5bc2d8;
 }
 
-footer div.copyright div.logo span:nth-of-type(2) a {
+footer div.copyright div.logo span a:nth-of-type(2) {
 	color:#fbc926;
 }
 

@@ -121,12 +121,7 @@
 				</div>
 				<div class="copyright">
 					<div class="logo">
-						<span><cms:text constant="designed"/>
-						<a href="http://way2cu.com"><cms:text constant="way2cu"/></a>
-						</span>
-						<span><cms:text constant="promoted"/>
-						<a href="http://www.oxerve.com"><cms:text constant="oxerve"/></a>
-						</span>
+						<span><cms:text constant="copyright"/></span>
 						<span><cms:text constant="rights"/></span>
 					</div>
 				</div>

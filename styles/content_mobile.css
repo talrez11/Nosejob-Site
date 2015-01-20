@@ -23,7 +23,7 @@
 }
 header div.inner_wrap a {
 	display:block;
-	width: 200px;
+	width: 220px;
 	background-image: url(../images/icon-phone-white.svg);
 	background-repeat: no-repeat;
 	background-position: 25px center;
@@ -144,7 +144,7 @@ div.form_wrap > span:nth-of-type(1) {
 
  div.form_wrap > a {
  	display: block;
-	width: 150px;
+	width: 165px;
 	background-color:#2dcb70;
 	background-image:url(../images/icon-phone-white.svg);
 	background-repeat: no-repeat;
