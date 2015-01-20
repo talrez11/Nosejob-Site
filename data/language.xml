@@ -2,22 +2,19 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="Hebrew" short="he" rtl="yes" default="yes">
-	<constant name="site_title">Site title</constant>
+	<constant name="site_title">דר' אילן הוכמן רופא מומחה אף אוזן גרון וניתוחים פלסטיים באף</constant>
 	<constant name="header_title">וַאוווּ... איזה יופי!!!</constant>
 	<constant name="you_tube_header">ד"ר אילן הוכמן</constant>
 	<constant name="header">דר' אילן הוכמן רופא מומחה אף אוזן גרוןוניתוחים פלסטיים באף</constant>
 	<constant name="article_header_bold">דר' אילן הוכמן </constant>
 	<constant name="article_header">רופא מומחה אף אוזן גרון וניתוחים פלסטיים באף</constant>
-	<constant name="phone">09-7654321</constant>
+	<constant name="phone">054-7576855</constant>
 	<constant name="call_now">התקשרו עכשיו</constant>
 	<constant name="leave_details">או השאירו פרטים</constant>
 	<constant name="send">שלח לתיאום פגישה</constant>
-	<constant name="gallery_header">הנה דוגמאות ניתוחי אף לפני ואחרי מתוך אלפי הניתוחים שביצעתי בעשור האחרון:
-	</constant>
+	<constant name="gallery_header">הנה דוגמאות ניתוחי אף לפני ואחרי מתוך אלפי הניתוחים שביצעתי בעשור האחרון:	</constant>
 	<constant name="footer1">גם לך מגיע להיראות יפה, עם אף חטוב ומחמיא</constant>
-	<constant name="footer2">לפרטים על ניתוחי אף והחלמה, כמה עולהניתוח אף או כל שאלה אחרת 		שמטרידה
-	אותך וברצונך לקבל מידע מהימן.
-	</constant>
+	<constant name="footer2">לפרטים על ניתוחי אף והחלמה, כמה עולה ניתוח אף או כל שאלה אחרת שמטרידה אותך וברצונך לקבל מידע מהימן.</constant>
 	<constant name="footer3">אני מזמין אותך לפגישת ייעוץ ללא כל התחייבות.</constant>
 	<constant name="designed">Designed and developed by</constant>
 	<constant name="promoted">promoted by</constant>
