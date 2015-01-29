@@ -21,11 +21,11 @@ header {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: auto 600px;
-	height: 545px;
+	height: 590px;
 	color:white;
 }
 
-header div.inner_wrap a {
+header div.inner_wrap a:first-of-type {
 	display: inline-block;
 	position: absolute;
 	top:10px;
@@ -65,8 +65,19 @@ header div.inner_wrap div:nth-of-type(2) {
 	margin-right: 45px;
 }
 
+a.video {
+	position: absolute;
+	left: 188px;
+	margin: 0;
+	margin-top: 142px;
+	padding-top: 0;
+	width: 477px;
+	height: 307px;
+}
 
-
+a.video:hover {
+	cursor: pointer;
+}
 
 
 /*ARTICLE SECTION*/

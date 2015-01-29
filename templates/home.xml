@@ -25,74 +25,67 @@
 					<div>
 						<span><cms:text constant="header_title"/></span>
 					</div>
-					<div>
-							<cms:module
-										name="youtube"
-										action="show"
-										text_id="header_video"
-										embed="1"
-										width="600"
-										height="400"
-										target="video_player"
-										theme="dark"
-										autohide="1"
-										/>
-
-					</div>
+					<div id="video_player"/>
+						<cms:module
+							name="youtube"
+							action="show"
+							text_id="header_video"
+							template="parts/video.xml"
+							/>
 				</div>
 			</header>
 			<!-- ARTICLE SECTION -->
 			<div class="shadow">
 				<div class="content">
-								<div class="inner_wrap">
-									<!-- ARTICLE -->
-									<div class="content_wrap">
-										<h2>
-											<span><cms:text constant="article_header_bold"/></span>
+					<div class="inner_wrap">
+						<!-- ARTICLE -->
+						<div class="content_wrap">
+							<h2>
+								<span><cms:text constant="article_header_bold"/></span>
 
-											<cms:text constant="article_header"/>
-										</h2>
-										<cms:module
-											name="articles"
-											action="show"
-											text_id="about_article"
-											template="parts/article_noheading.xml"
-										/>
-									</div>
-									<!-- FORM -->
-									<div class="form_wrap">
-										<span><cms:text constant="call_now"/></span>
-										<a
-										href="'tel:'.urlencode(Language::getText('phone'))"
-										cms:eval="href"
-										class="phone"
-										>
-										<cms:text constant="phone"/>
-										</a>
-										<span><cms:text constant="leave_details"/></span>
-										<cms:module
-							 				name="contact_form"
-							 				action="show"
-							 				text_id="contact_form"
-							 				/>
-									</div>
-								</div>
-							</div>
-							<!-- Gallery -->
-							<div class="gallery">
-								<div class="inner_wrap">
-									<div class="images">
-										<span><cms:text constant="gallery_header"/></span>
-										<cms:module
-													name="gallery"
-													action="show_image_list"
-													random="1"
-													group="examples"
-													template="parts/image.xml"
-												/>
-									</div>
-								</div>
-							</div>
+								<cms:text constant="article_header"/>
+							</h2>
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="about_article"
+								template="parts/article_noheading.xml"
+							/>
+						</div>
+						<!-- FORM -->
+						<div class="form_wrap">
+							<span><cms:text constant="call_now"/></span>
+							<a
+							href="'tel:'.urlencode(Language::getText('phone'))"
+							cms:eval="href"
+							class="phone"
+							>
+							<cms:text constant="phone"/>
+							</a>
+							<span><cms:text constant="leave_details"/></span>
+							<cms:module
+				 				name="contact_form"
+				 				action="show"
+				 				text_id="contact_form"
+				 				/>
+						</div>
+					</div>
+				</div>
+				<!-- Gallery -->
+				<div class="gallery">
+					<div class="inner_wrap">
+						<div class="images">
+							<span><cms:text constant="gallery_header"/></span>
+							<cms:module
+										name="gallery"
+										action="show_image_list"
+										random="1"
+										group="examples"
+										template="parts/image.xml"
+									/>
+						</div>
+					</div>
+				</div>
 			</div>
 			<!-- FOOTER -->
 			<footer>
