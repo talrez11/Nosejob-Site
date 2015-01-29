@@ -257,6 +257,7 @@ div.gallery div.inner_wrap {
 
 div.gallery div.inner_wrap div.images {
 	display: block;
+	text-align: center;
 }
 
 div.gallery div.inner_wrap div.images > span {
@@ -270,22 +271,15 @@ div.gallery div.inner_wrap div.images > span {
 div.gallery div.inner_wrap div.images a {
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 30vw;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 20px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5em;
 	font-weight: bold;
 	color:#202850;
-}
-
-div.gallery div.inner_wrap div.images a:nth-of-type(2) {
-	margin-right: 75px;
-}
-div.gallery div.inner_wrap div.images a:nth-of-type(3) {
-	margin-right: 75px;
-}
-div.gallery div.inner_wrap div.images a:nth-of-type(4) {
-	margin-right: 75px;
 }
 
 div.gallery div.inner_wrap div.images a img {

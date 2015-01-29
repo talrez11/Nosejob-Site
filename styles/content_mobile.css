@@ -21,7 +21,7 @@
 	background-size: 100% auto;
 	color:white;
 }
-header div.inner_wrap a {
+header div.inner_wrap a:first-of-type {
 	display:block;
 	width: 220px;
 	background-image: url(../images/icon-phone-white.svg);
